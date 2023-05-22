@@ -121,56 +121,56 @@ Plots for the other layers of the deep neural models are in `/dist_mats/hillenbr
 <table>
   <tr>
     <td>
-      <a href="https://github.com/Bartelds/vowels/assets/55746420/39563f22-6f92-47d1-96d9-04fb37294b86">
-      <img src="https://github.com/Bartelds/vowels/assets/55746420/39563f22-6f92-47d1-96d9-04fb37294b86"
+      <a href="./plots/hillenbrand/formants/MDS_vowels_woman.png">
+      <img src="./plots/hillenbrand/formants/MDS_vowels_woman.png"
        alt="MDS visualization of formant-based vowel distances for woman speakers" width="400"></a><br>
       MDS visualization of formant-based vowel distances for woman speakers
     </td>
     <td>
-      <a href="https://github.com/Bartelds/vowels/assets/55746420/037605a7-af1b-4f41-aad8-63114f5768be">
-      <img src="https://github.com/Bartelds/vowels/assets/55746420/037605a7-af1b-4f41-aad8-63114f5768be"
+      <a href="./plots/hillenbrand/formants/MDS_vowels_male.png">
+      <img src="./plots/hillenbrand/formants/MDS_vowels_male.png"
        alt="MDS visualization of formant-based vowel distances for male speakers" width="400"></a><br>
       MDS visualization of formant-based vowel distances for male speakers
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Bartelds/vowels/assets/55746420/d6cd4be6-36fd-42b3-b28e-87858a9e35e9">
-      <img src="https://github.com/Bartelds/vowels/assets/55746420/d6cd4be6-36fd-42b3-b28e-87858a9e35e9"
+      <a href="./plots/hillenbrand/wav2vec2-large-960h/l-05/MDS_vowels_woman.png">
+      <img src="./plots/hillenbrand/wav2vec2-large-960h/l-05/MDS_vowels_woman.png"
        alt="MDS visualization of wav2vec2-large-960h layer 5-based vowel distances for woman speakers" width="400"></a><br>
       MDS visualization of wav2vec2-large-960h layer 5-based vowel distances for woman speakers
     </td>
     <td>
-      <a href="https://github.com/Bartelds/vowels/assets/55746420/7b518c24-c164-445a-aa21-1ceec9060949">
-      <img src="https://github.com/Bartelds/vowels/assets/55746420/7b518c24-c164-445a-aa21-1ceec9060949"
+      <a href="./plots/hillenbrand/wav2vec2-large-960h/l-05/MDS_vowels_male.png">
+      <img src="./plots/hillenbrand/wav2vec2-large-960h/l-05/MDS_vowels_male.png"
        alt="MDS visualization of wav2vec2-large-960h layer 5-based vowel distances for male speakers" width="400"></a><br>
       MDS visualization of wav2vec2-large-960h layer 5-based vowel distances for male speakers
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Bartelds/vowels/assets/55746420/3ec942e7-ec5a-4702-a162-5afc1c5f2256">
-      <img src="https://github.com/Bartelds/vowels/assets/55746420/3ec942e7-ec5a-4702-a162-5afc1c5f2256"
+      <a href="./plots/hillenbrand/wav2vec2-xls-r-300m/l-10/MDS_vowels_woman.png">
+      <img src="./plots/hillenbrand/wav2vec2-xls-r-300m/l-10/MDS_vowels_woman.png"
        alt="MDS visualization of wav2vec2-xls-r-300m layer 10-based vowel distances for woman speakers" width="400"></a><br>
       MDS visualization of wav2vec2-xls-r-300m layer 10-based vowel distances for woman speakers
     </td>
     <td>
-      <a href="https://github.com/Bartelds/vowels/assets/55746420/24849adf-989f-4a51-b2cc-ab57e740f4b1">
-      <img src="https://github.com/Bartelds/vowels/assets/55746420/24849adf-989f-4a51-b2cc-ab57e740f4b1"
+      <a href="./plots/hillenbrand/wav2vec2-xls-r-300m/l-10/MDS_vowels_male.png">
+      <img src="./plots/hillenbrand/wav2vec2-xls-r-300m/l-10/MDS_vowels_male.png"
        alt="MDS visualization of wav2vec2-xls-r-300m layer 10-based vowel distances for male speakers" width="400"></a><br>
       MDS visualization of wav2vec2-xls-r-300m layer 10-based vowel distances for male speakers
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Bartelds/vowels/assets/55746420/797dc5a0-78dd-4a87-bdb7-be6e5273eea9">
-      <img src="https://github.com/Bartelds/vowels/assets/55746420/797dc5a0-78dd-4a87-bdb7-be6e5273eea9"
+      <a href="./plots/hillenbrand/wav2vec2-xls-r-1b/l-10/MDS_vowels_woman.png">
+      <img src="./plots/hillenbrand/wav2vec2-xls-r-1b/l-10/MDS_vowels_woman.png"
        alt="MDS visualization of wav2vec2-xls-r-1b layer 10-based vowel distances for woman speakers" width="400"></a><br>
       MDS visualization of wav2vec2-xls-r-1b layer 10-based vowel distances for woman speakers
     </td>
     <td>
-      <a href="https://github.com/Bartelds/vowels/assets/55746420/1f9785b5-a2a7-4931-91a6-d3243e7cb06f">
-      <img src="https://github.com/Bartelds/vowels/assets/55746420/1f9785b5-a2a7-4931-91a6-d3243e7cb06f"
+      <a href="./plots/hillenbrand/wav2vec2-xls-r-1b/l-10/MDS_vowels_male.png">
+      <img src="./plots/hillenbrand/wav2vec2-xls-r-1b/l-10/MDS_vowels_male.png"
        alt="MDS visualization of wav2vec2-xls-r-1b layer 10-based vowel distances for male speakers" width="400"></a><br>
       MDS visualization of wav2vec2-xls-r-1b layer 10-based vowel distances for male speakers
     </td>
