@@ -1,4 +1,8 @@
 # Compute acoustic distances between vowels
+
+Q: A lot of work over the past decade shows that features derived from acoustic embeddings are a better source for most sound-analysis tasks than frame-wise spectral analyses.
+But we don't yet know how to create low-dimensional versions that express exactly the information relevant to (e.g.) vowel quality.
+
 This repository compares a formant-based approach to a neural embedding-based approach for computing vowel distances on the [Hillenbrand et al. (1995)](https://pubs.aip.org/asa/jasa/article/97/5/3099/847219/Acoustic-characteristics-of-American-English) dataset.
 
 ## Repository Structure
@@ -68,7 +72,7 @@ python acoustic_distance_formants.py -i timedata.tsv -g woman
 
 Enter the corresponding file with formant frequencies after the input (`-i`) argument, and choose the the gender for which the script should calculate vowel distances (`-g`).
 
-After filtering the data based on the specified gender, the script computes the average pairwise Bark-scaled formant distances between different vowels, following [Wieling et al. (2011)](https://www.clinjournal.org/clinj/article/view/10).
+After filtering the data based on the specified gender, the script computes the average pairwise Bark-scaled formant distances between different vowels, following [Wieling et al. (2011)](https://www.clinjournal.org/clinj/article/view/10). The choice of the Bark scale, as opposed to Hertz, aligns better with human perception due to the non-linear nature of frequency perception, as explained in [Traunmüller (1990)](https://pubs.aip.org/asa/jasa/article/88/1/97/626881/Analytical-expressions-for-the-tonotopic-sensory). This approach ensures that the first formant is appropriately weighted in the analysis.
 
 The script then uses multidimensional scaling (MDS) to visualize the computed distances in a 2D space.
 
