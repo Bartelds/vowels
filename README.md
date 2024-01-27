@@ -136,6 +136,12 @@ Plots for the other layers of the deep neural models are in `/dist_mats/hillenbr
        alt="MDS visualization of formant-based vowel distances for male speakers" width="400"></a><br>
       MDS visualization of formant-based vowel distances for male speakers
     </td>
+      <td>
+      <a href="./plots/hillenbrand/formants/MDS_vowels_both.png">
+      <img src="./plots/hillenbrand/formants/MDS_vowels_both.png"
+       alt="MDS visualization of formant-based vowel distances for both genders" width="400"></a><br>
+      MDS visualization of formant-based vowel distances for both genders
+    </td>
   </tr>
   <tr>
     <td>
@@ -150,6 +156,12 @@ Plots for the other layers of the deep neural models are in `/dist_mats/hillenbr
        alt="MDS visualization of wav2vec2-large-960h layer 5-based vowel distances for male speakers" width="400"></a><br>
       MDS visualization of wav2vec2-large-960h layer 5-based vowel distances for male speakers
     </td>
+      <td>
+      <a href="./plots/hillenbrand/wav2vec2-large-960h/l-05/MDS_vowels_both.png">
+      <img src="./plots/hillenbrand/wav2vec2-large-960h/l-05/MDS_vowels_both.png"
+       alt="MDS visualization of wav2vec2-large-960h layer 5-based vowel distances for both genders" width="400"></a><br>
+      MDS visualization of wav2vec2-large-960h layer 5-based vowel distances for both genders
+    </td>
   </tr>
   <tr>
     <td>
@@ -163,6 +175,12 @@ Plots for the other layers of the deep neural models are in `/dist_mats/hillenbr
       <img src="./plots/hillenbrand/wav2vec2-xls-r-300m/l-10/MDS_vowels_male.png"
        alt="MDS visualization of wav2vec2-xls-r-300m layer 10-based vowel distances for male speakers" width="400"></a><br>
       MDS visualization of wav2vec2-xls-r-300m layer 10-based vowel distances for male speakers
+    </td>
+      <td>
+      <a href="./plots/hillenbrand/wav2vec2-xls-r-300m/l-10/MDS_vowels_both.png">
+      <img src="./plots/hillenbrand/wav2vec2-xls-r-300m/l-10/MDS_vowels_both.png"
+       alt="MDS visualization of wav2vec2-xls-r-300m layer 10-based vowel distances for both genders" width="400"></a><br>
+      MDS visualization of wav2vec2-xls-r-300m layer 10-based vowel distances for both genders
     </td>
   </tr>
   <tr>
@@ -209,3 +227,9 @@ Plots for the other layers of the deep neural models are in `/dist_mats/hillenbr
 | Layer 40 (Female)   |                      |                      | 0.76               |
 | Layer 44 (Female)   |                      |                      | 0.65               |
 | Layer 48 (Female)   |                      |                      | 0.52               |
+| Layer 1 (Both)      | 0.73                 | 0.76                 |                    |
+| Layer 5 (Both)      | 0.73                 | 0.82                 |                    |
+| Layer 10 (Both)     | 0.68                 | **0.83** (best)      |                    |
+| Layer 15 (Both)     | 0.67                 | 0.80                 |                    |
+| Layer 20 (Both)     | 0.70                 | 0.81                 |                    |
+| Layer 24 (Both)     | 0.71                 | 0.71                 |                    |
